@@ -248,13 +248,16 @@ body:not(.tab-user) * {
     @include media-breakpoint-down(sm) {
        display: none;
     }
+    color: #283583;
+    padding-bottom: 7px;
+    padding-top: 7px;
     transform: skew(-40deg);
     position: absolute;
     right: 274px;
     bottom: 4%;
     background-color: #283583;
-    padding-bottom: 25px;
-    padding-top: 8px;
+    //padding-bottom: 25px;
+    //padding-top: 8px;
     width: 57px;
 }
 .page-header__albom {
